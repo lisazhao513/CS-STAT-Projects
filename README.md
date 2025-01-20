@@ -11,6 +11,6 @@
 * Evaluated model performance using RMSE and cross-validation to assess generalization across different subsets of the data.
 
 ## Simpsons Transcript Text Analysis
-* Developed an interactive R Shiny application (https://lisazhao513.shinyapps.io/Simpsons_Transcript_Text_Analysis/) to analyze and visualize The Simpsons TV show transcripts, incorporating features such as episode search, character-specific dialogue trends, and sentiment analysis across all seasons.
-* Utilized natural language processing techniques to extract insights from transcripts, including word frequency, sentiment scoring, and topic modeling, enabling users to explore thematic changes over the series.
-* Designed an intuitive user interface with dynamic plots, filters, and search functionality, allowing users to engage with detailed character-level and episode-level text data interactively.
+* Developed an interactive R Shiny application (https://lisazhao513.shinyapps.io/Simpsons_Transcript_Text_Analysis/) to analyze and visualize all 33 seasons of The Simpsons TV show transcripts, incorporating features such as character-specific dialogue trends and sentiment analysis across all or specific seasons.
+* Utilized natural language processing techniques to extract insights from transcripts, including word frequency and sentiment scoring, enabling users to explore thematic changes over the series.
+* Designed an intuitive user interface with dynamic plots, filters, and search functionality, allowing users to engage with detailed character-level and season-level text data interactively.
