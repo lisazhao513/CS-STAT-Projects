@@ -1,0 +1,12 @@
+name: Simpsons_Transcript_Text_Analysis
+title: Simpsons_Transcript_Text_Analysis
+username: lisazhao513
+account: lisazhao513
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13758905
+bundleId: 9672139
+url: https://lisazhao513.shinyapps.io/Simpsons_Transcript_Text_Analysis/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
