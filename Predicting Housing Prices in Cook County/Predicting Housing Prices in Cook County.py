@@ -164,7 +164,7 @@ rmse_value = rmse(np.exp(val_predictions), np.exp(Y_val))
 print("RMSE on Train Set: ", rmse_value)
 
 
-## EValuate Model ##
+## Evaluate Model ##
 test_data = pd.read_csv('cook_county_train.csv')
 X_test = feature_engine(test_data, is_test_set=True)    
 test_predictions = lm_model.predict(X_test)
