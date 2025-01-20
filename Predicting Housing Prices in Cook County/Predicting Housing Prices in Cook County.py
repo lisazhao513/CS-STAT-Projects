@@ -39,20 +39,16 @@ def plot_distribution(data, label):
         ax=axs[1],
         showfliers=False,
     )
-
-    # Align axes
     spacer = np.max(data[label]) * 0.05
     xmin = np.min(data[label]) - spacer
     xmax = np.max(data[label]) + spacer
     axs[0].set_xlim((xmin, xmax))
     axs[1].set_xlim((xmin, xmax))
 
-    # Remove some axis text
     axs[0].xaxis.set_visible(False)
     axs[0].yaxis.set_visible(False)
     axs[1].yaxis.set_visible(False)
 
-    # Put the two plots together
     plt.subplots_adjust(hspace=0)
     fig.suptitle("Distribution of " + label)
 
