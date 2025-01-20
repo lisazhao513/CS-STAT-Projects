@@ -1,8 +1,8 @@
 # Lisa Zhao
 
-#  Implements linear regression using sklearn to predict log-transformed house prices based on features like building square feet, estimate, and property class.
-#  Trains model using train_test_split and evaluates performance using RMSE on the log-transformed predictions and actual values.
-#  Applies feature engineering including outlier removal, log transformation, and one-hot encoding for categorical features like property class.
+# Developed a linear regression model to predict housing prices based on multiple features, such as number of bedrooms, square footage, and location.
+# Applied data preprocessing techniques including handling missing values, encoding categorical variables, and feature scaling for model readiness.
+# Evaluated model performance using RMSE and cross-validation to assess generalization across different subsets of the data.
 
 
 import numpy as np
@@ -51,6 +51,7 @@ def plot_distribution(data, label):
 
     plt.subplots_adjust(hspace=0)
     fig.suptitle("Distribution of " + label)
+    plt.show()
 
 plot_distribution(training_data, label='Log Sale Price')
 
